@@ -1,0 +1,23 @@
+{
+  "name": "@cheapreats/txn",
+  "version": "1.0.0",
+  "description": "Flexible transaction management. Learn more about it in our [blog post](https://blog.cheapreats.com/handling-transactions-at-cheapreats/).",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheapreats/txn.git"
+  },
+  "author": "Kevin Moorman, Aamir Ashraf, Jiancheng Du, Shahrukh Raza, Jun Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheapreats/txn/issues"
+  },
+  "homepage": "https://github.com/cheapreats/txn#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}

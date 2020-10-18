@@ -1,4 +1,12 @@
-# Transaction Management
+# txn
+
+Flexible transaction management. Learn more about it in our [blog post](https://blog.cheapreats.com/handling-transactions-at-cheapreats/).
+
+## Install
+
+```
+$ npm install @cheapreats/txn --save
+```
 
 ## Links
 [npm-url](https://npmjs.org/package/transaction_management)
@@ -23,12 +31,6 @@ Both `execute()` and `retry()` will return a boolean in which true indicates suc
 The object `retryPolicy{}` includes the numeric variable `numRetries` with a non-negative integer value of 0 or more. The transaction processes are executed sequentially and all retries attempted until the policy is exhausted. If the retry policy is exhausted, all transaction processes that had been successfully completed will have their `rollback()` method called in reverse sequence.
 
 The `executeTransaction()` method returns a boolean value in which true indicates success of the whole transaction and false indicates that the whole transaction had failed. In the case of false, any individual transaction process that had succeeded will have also been rolled back.
-
-## Installation
-
-```
-npm install transaction_management --save
-```
 
 ## Usage
 
@@ -57,7 +59,3 @@ Rolled back vendor charge.
 Rolled back coupon ${couponNumber} update.
 Rolled back order ${orderId} total calculation.
 ```
-
-## License
-
-ICS
