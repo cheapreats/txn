@@ -1,6 +1,6 @@
 {
   "name": "@cheapreats/txn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flexible transaction management. Learn more about it in our [blog post](https://blog.cheapreats.com/handling-transactions-at-cheapreats/).",
   "main": "src/index.js",
   "scripts": {
